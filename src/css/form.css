@@ -1,0 +1,21 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+
+ span.required {
+     color: red;
+ }
+ span.required::before {
+    color: red;
+    content: "*";
+}
+ 
+fieldset.survey-group {
+  padding:10px;	
+}
+
+#desc, #pho-name, #pho-email, #notes, #license-menu {
+    width: 70%;
+    box-sizing: border-box;
+
+}
